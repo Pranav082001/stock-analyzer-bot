@@ -135,8 +135,8 @@ def Anazlyze_stock(query):
     stock_financials=get_financial_statements(ticker)
     stock_news=get_recent_stock_news(Company_name)
 
-    # available_information=f"Stock Price: {stock_data}\n\nStock Financials: {stock_financials}\n\nStock News: {stock_news}"
-    available_information=f"Stock Financials: {stock_financials}\n\nStock News: {stock_news}"
+    available_information=f"Stock Price: {stock_data}\n\nStock Financials: {stock_financials}\n\nStock News: {stock_news}"
+    #available_information=f"Stock Financials: {stock_financials}\n\nStock News: {stock_news}"
 
     # print("\n\nAnalyzing.....\n")
     analysis=llm(f"Give detail stock analysis, Use the available data and provide investment recommendation. \
