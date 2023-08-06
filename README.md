@@ -50,6 +50,7 @@ Based on the available data and information, it can be concluded that investing 
 
  # Further improvemetns and addition to be done
 a) Streamlit Demo \
+b) More tools can be added. Fo eg. math tool to perform complex technical analysis \
 b) More robust prompting for stable output \
 c) Support of other opensource LLMS \
 d) Note- Its a fun hobby project, Feel free to add any suggestions/ moodification
