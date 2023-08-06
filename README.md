@@ -3,7 +3,7 @@ An AI Bot that can help you with stock investment by analyzing all the real-time
 
 # Motivation
 
-As a retail investor, if you don't have a finance background or the capability to understand all the complicated financial terms makes the stock analysis process really time-consuming. Every time I end up watching some fin-YouTuber's video or some random blog on the internet to avoid manually dealing with all this stuff. This is where thought of making a Langchian and LLM-based bot that can take real-time as well as historic data to make investment analysis 
+As a retail investor, if you don't have a finance background or the capability to understand all the complicated financial terms, makes the stock analysis process really time-consuming. Every time I end up watching some fin-YouTuber's video or some random blog on the internet to avoid manually dealing with all this stuff. This is where i thought of making a Langchian and LLM-based bot that can take real-time as well as historic data to make investment analysis 
 <!--
 # How to run 
 All the code and experimentation can be found in <code>stock_analyzer_bot.ipynb</code> notebook. 
@@ -25,7 +25,7 @@ All these factors seems sufficient for the analysis, it captures historical perf
 #### Approach 2- Predefine prompt with function calls
 - Open ai has introduced function call a month ago, which is really helpful with which we can get structured output as we want in json format from LLM 
 - In this method stock ticker is extracted with the help of function calls. As most of the future code was dependet on this single argument
-- And in the later stages stock data, news, financial statements are simply fetched by inputting ticker symbol 
+- And in the later stages stock data, news, financial statements are simply fetched by inputting ticker symbol. Further analyzed by openai llm
 - It is recommended to use this approach for robust and stable analysis
 
 # Example - 
