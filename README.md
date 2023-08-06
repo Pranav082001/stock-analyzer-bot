@@ -23,11 +23,10 @@ All these factors seems sufficient for the analysis, it captures historical perf
 - This approach may work or may not, Further improvements can be made by modifying the prompt
 
 #### Approach 2- Predefine prompt with function calls
-
-- Open ai has introduced function call a month ago, which is really helpful with which we can get structured output as we want in json format from LLM
--In this method stock ticker is extracted with the help of function calls. As most of the future code was dependet on this single argument
--And in the later stages stock data, news, financial statements are simply fetched by inputting ticker symbol
--It is recommended to use this approach for robust and stable analysis
+- Open ai has introduced function call a month ago, which is really helpful with which we can get structured output as we want in json format from LLM 
+- In this method stock ticker is extracted with the help of function calls. As most of the future code was dependet on this single argument
+- And in the later stages stock data, news, financial statements are simply fetched by inputting ticker symbol 
+- It is recommended to use this approach for robust and stable analysis
 
  # Further improvemetns and addition to be done
 a) Streamlit Demo \
