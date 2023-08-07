@@ -1,4 +1,4 @@
-# Stock Analyzer Bot 
+# Stock Analyzer Bot 📈
 An AI Bot that can help you with stock investment by analyzing all the real-time as well as historic stock-related information with the help of LLM
 
 # Motivation
