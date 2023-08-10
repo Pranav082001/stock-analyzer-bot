@@ -1,6 +1,8 @@
 # Stock Analyzer 📈
 An AI Bot that can help you with stock investment by analyzing all the real-time as well as historic stock-related information with the help of LLM
 
+# Blog-
+https://medium.com/p/7f8a62cbcaaa
 # Motivation
 
 As a retail investor, if you don't have a finance background or the capability to understand all the complicated financial terms, makes the stock analysis process really time-consuming. Every time I end up watching some fin-YouTuber's video or some random blog on the internet to avoid manually dealing with all this stuff. This is where i thought of making a Langchian and LLM-based bot that can take real-time as well as historic data to make investment analysis 
@@ -30,21 +32,26 @@ All these factors seems sufficient for the analysis, it captures historical perf
 
 # Example - 
 Input- \
-```Anazlyze_stock("Is it a good time to invest in Yes Bank?") ```
+```Anazlyze_stock("Is it a good time to invest in Adani power?") ```
 
 Output- 
 
 ```
-'Query': 'Is it a good time to invest in Yes Bank?', 'Company_name': 'Yes Bank', 'Ticker': 'YESBANK'
+{'Query': 'Shall I invest in Adani power right now?', 'Company_name': 'Adani Power', 'Ticker': 'ADANIPOWER'}
+
+
 Analyzing.....
-Investment Thesis for Yes Bank:
-1. Financial Performance: Yes Bank has shown improvement in its financials over the past three years. The net debt has increased, indicating higher borrowing, but the tangible book value and common stock equity have also increased, suggesting a stronger financial position.
-2. Total Capitalization: The total capitalization of Yes Bank has been consistently increasing, indicating a growing investor base and potential for future growth. This can be seen as a positive sign for investors considering investing in the bank.
-3. Total Assets: Yes Bank's total assets have also been increasing steadily, indicating the bank's ability to attract and manage a larger pool of assets. This growth in assets can contribute to the bank's profitability and potential for future expansion.
-4. Stock News: Recent news about Yes Bank suggests that the stock has seen a marginal increase in price and has been holding steady. This stability in the stock price can be seen as a positive sign for investors, indicating a potential for future growth.
-5. Weak Underlying Business: However, it is important to note that there are concerns about the bank's weak underlying business, as indicated by the soft quarter expected in Q1. This may lead to a decline in profitability, which could impact the stock price in the short term.
-6. Overall Market Conditions: It is also important to consider the overall market conditions and the banking sector as a whole before making an investment decision. Factors such as economic conditions, regulatory changes, and competition can significantly impact the performance of Yes Bank and its stock price.
-Based on the available data and information, it can be concluded that investing in Yes Bank at this time carries both positive and negative factors. The positive factors include the bank's improving financials, increasing total capitalization, and steady stock price. However, the concerns about the weak underlying business and potential decline in profitability should also be taken into consideration. Therefore, investors should carefully evaluate their risk tolerance and conduct further research and analysis before making an investment decision in Yes Bank.
+
+Investment Thesis for Adani Power:
+
+1. Strong Financials: Adani Power has shown consistent growth in its financials over the past three years. The company has a positive tangible book value, indicating a strong asset base. Additionally, the company has a high invested capital, which suggests a strong financial position.
+2. Increasing Stock Price: The stock price of Adani Power has been increasing steadily over the past few days. This indicates positive investor sentiment and potential for further growth in the future.
+3. Declining Revenues: Adani Power has reported declining revenues in its recent quarterly results. This could be a concern for investors as it may indicate a slowdown in the company's business operations. However, further analysis is required to determine the reasons behind the decline and its potential impact on future performance.
+4. Positive News Coverage: Adani Power has been in the news recently, with multiple articles highlighting the company's performance and prospects. Positive news coverage can attract more investors and potentially drive up the stock price.
+5. Power Sector Outlook: The power sector in India is expected to grow in the coming years due to increasing demand for electricity. Adani Power, being a major player in the sector, is well-positioned to benefit from this growth. However, it is important to consider the competitive landscape and regulatory environment of the sector before making an investment decision.
+
+Conclusion:
+Based on the available data, investing in Adani Power right now could be a favorable option. The company has strong financials and a positive stock price trend. However, it is important to conduct further research and analysis to fully understand the reasons behind the declining revenues and assess the potential risks associated with the power sector.
 ```
 
 
@@ -53,5 +60,5 @@ a) Streamlit Demo \
 b) More tools can be added. Fo eg. math tool to perform complex technical analysis \
 b) More robust prompting for stable output \
 c) Support of other opensource LLMS \
-d) Note- Its a fun hobby project, Feel free to add any suggestions/ moodification
+d) Note- I am not a finance expert, Its just a fun hobby project, Feel free to add any suggestions/ moodification
 
