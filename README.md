@@ -55,7 +55,7 @@ Based on the available data, investing in Adani Power right now could be a favor
 ```
 
 
- # Further improvemetns and addition to be done
+ # Further improvements and addition to be done
 a) Streamlit Demo \
 b) More tools can be added. Fo eg. math tool to perform complex technical analysis \
 b) More robust prompting for stable output \
